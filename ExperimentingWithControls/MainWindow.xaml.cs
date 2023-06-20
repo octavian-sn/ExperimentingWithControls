@@ -34,5 +34,10 @@ namespace ExperimentingWithControls
         {
             e.Handled = !int.TryParse(e.Text, out int result);
         }
+
+        private void smallSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            number.Text = smallSlider.Value.ToString("0");
+        }
     }
 }
