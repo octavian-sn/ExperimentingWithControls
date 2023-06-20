@@ -16,6 +16,15 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
+        <Label Content="Enter a number" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" Margin="10,10,0,0"/>
+        <TextBlock x:Name="number" Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="#" VerticalAlignment="Center" FontSize="24" RenderTransformOrigin="0.147,0.977"/>
+        <TextBox x:Name="numberTextBox" HorizontalAlignment="Left" Margin="10,49,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" FontSize="24" TextChanged="numberTextBox_TextChanged" PreviewTextInput="numberTextBox_PreviewTextInput"/>
+        <RadioButton Content="1" HorizontalAlignment="Left" Margin="200,49,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="1" HorizontalAlignment="Left" Margin="200,49,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="2" HorizontalAlignment="Left" Margin="230,49,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="3" HorizontalAlignment="Left" Margin="260,49,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="4" HorizontalAlignment="Left" Margin="290,49,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="5" HorizontalAlignment="Left" Margin="320,49,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
